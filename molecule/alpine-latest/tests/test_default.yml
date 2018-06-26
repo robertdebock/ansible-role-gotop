@@ -2,5 +2,5 @@
 
 ---
 file:
-  /etc/hosts:
+  /usr/local/bin/gotop:
     exists: true
