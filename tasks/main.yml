@@ -1,0 +1,7 @@
+---
+# tasks file for gotop
+- name: install software
+  unarchive:
+    url: "{{ gotop_download_url }}"
+    dest: "{{ gotop_installation_path }}"
+    remote_src: yes

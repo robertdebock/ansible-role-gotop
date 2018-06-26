@@ -1,0 +1,52 @@
+---
+galaxy_info:
+  author: Robert de Bock
+  description: Provides gotop for your system.
+  license: Apache License, Version 2.0
+  min_ansible_version: 2.3
+  min_ansible_container_version: 0.2.0
+
+  platforms:
+    - name: Alpine
+      versions:
+        - all
+    - name: ArchLinux
+      version:
+        - all
+    - name: CentOS
+      version:
+        - 6
+        - 7
+    - name: Debian
+      versions:
+        - all
+    - name: EL
+      version:
+        - 6
+        - 7
+    - name: Fedora
+      versions:
+        - all
+    - name: OpenSUSE
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - trusty
+        - artful
+
+  galaxy_tags:
+    - gotop
+    - system
+    - monitoring
+    - top
+    - Alpine
+    - Archlinux
+    - CentOS
+    - Debian
+    - Fedora
+    - OpenSUSE
+    - RHEL
+    - Ubuntu
+
+dependencies: []

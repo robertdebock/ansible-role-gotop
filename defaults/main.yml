@@ -1,0 +1,4 @@
+---
+# defaults file for gotop
+gotop_version: 1.4.0
+gotop_installation_path: /usr/local/bin
