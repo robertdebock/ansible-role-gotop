@@ -41,13 +41,13 @@ galaxy_info:
     - system
     - monitoring
     - top
-    - Alpine
-    - Archlinux
-    - CentOS
-    - Debian
-    - Fedora
-    - OpenSUSE
-    - RHEL
-    - Ubuntu
+    - alpine
+    - archlinux
+    - centos
+    - debian
+    - fedora
+    - opensuse
+    - rhel
+    - ubuntu
 
 dependencies: []
