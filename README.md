@@ -20,7 +20,8 @@ Access to a repository containing packages, likely on the internet.
 Role Variables
 --------------
 
-None known.
+- gotop_version: The version of gotop to install.
+- gotop_installation_path: The location where to install gotop.
 
 Dependencies
 ------------
