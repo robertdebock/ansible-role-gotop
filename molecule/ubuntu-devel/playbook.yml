@@ -5,5 +5,5 @@
   gather_facts: false
 
   roles:
-    - role: robertdebock.bootstrap
-    - role: ansible-role-gotop
+    - robertdebock.bootstrap
+    - ansible-role-gotop

@@ -3,48 +3,62 @@ gotop
 
 [![Build Status](https://travis-ci.org/robertdebock/ansible-role-gotop.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-gotop)
 
-Installs and enables gotop for your system.
+Installs gotop for your system.
 
-[Unit tests](https://travis-ci.org/robertdebock/ansible-role-gotop) are done on every commit and periodically.
 
-If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-gotop/issues)
+Example Playbook
+----------------
 
-To test this role locally please use [Molecule](https://github.com/metacloud/molecule):
+This example is taken from `molecule/default/playbook.yml`:
 ```
-pip install molecule
-molecule test
+---
+- name: Converge
+  hosts: all
+  become: true
+  gather_facts: false
+
+  roles:
+    - robertdebock.bootstrap
+    - robertdebock.gotop
+
 ```
-There are many scenarios available, please have a look in the `molecule/` directory.
+
+Role Variables
+--------------
+
+These variables are set in `defaults/main.yml`:
+```
+---
+# defaults file for gotop
+
+# The version of gotop to install.
+gotop_version: 1.4.0
+
+# Where to install gotop.
+gotop_installation_path: /usr/local/bin
+
+```
+
+Requirements
+------------
+
+- Access to a repository containing packages, likely on the internet.
+- A recent version of Ansible. (Tests run on the last 3 release of Ansible.)
+
+The following roles can be installed to ensure all requirements are met, using `ansible-galaxy install -r requirements.yml`:
+
+---
+- robertdebock.bootstrap
+
 
 Context
 -------
+
 This role is a part of many compatible roles. Have a look at [the documentation of these roles](https://robertdebock.nl/) for further information.
 
 Here is an overview of related roles:
 ![dependencies](https://raw.githubusercontent.com/robertdebock/drawings/artifacts/gotop.png "Dependency")
 
-Requirements
-------------
-
-Access to a repository containing packages, likely on the internet.
-
-Role Variables
---------------
-
-- gotop_version: The version of gotop to install.
-- gotop_installation_path: The location where to install gotop.
-
-Dependencies
-------------
-
-This role can be used to prepare your system:
-
-- [robertdebock.bootstrap](https://travis-ci.org/robertdebock/ansible-role-bootstrap)
-
-Download the dependencies by issuing this command:
-```
-ansible-galaxy install --role-file requirements.yml
-```
 
 Compatibility
 -------------
@@ -71,24 +85,26 @@ This role has been tested against the following distributions and Ansible versio
 
 A single star means the build may fail, it's marked as an experimental build.
 
-Example Playbook
-----------------
+Testing
+-------
 
-The simplest way possible:
+[Unit tests](https://travis-ci.org/robertdebock/ansible-role-gotop) are done on every commit and periodically.
+
+If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-gotop/issues)
+
+To test this role locally please use [Molecule](https://github.com/metacloud/molecule):
 ```
-- hosts: servers
-
-  roles:
-    - robertdebock.bootstrap
-    - robertdebock.gotop
+pip install molecule
+molecule test
 ```
+There are many specific scenarios available, please have a look in the `molecule/` directory.
 
-Install this role using `galaxy install robertdebock.gotop`.
 
 License
 -------
 
-Apache License, Version 2.0
+Apache-2.0
+
 
 Author Information
 ------------------
