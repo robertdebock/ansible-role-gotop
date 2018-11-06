@@ -2,7 +2,7 @@
 galaxy_info:
   author: Robert de Bock
   role_name: gotop
-  description: Provides gotop for your system.
+  description: The purpose of this role is to install gotop on your system.
   license: Apache-2.0
   company: none
   min_ansible_version: 2.4

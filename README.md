@@ -3,8 +3,7 @@ gotop
 
 [![Build Status](https://travis-ci.org/robertdebock/ansible-role-gotop.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-gotop)
 
-Installs gotop for your system.
-
+The purpose of this role is to install gotop on your system.
 
 Example Playbook
 ----------------
