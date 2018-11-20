@@ -38,6 +38,8 @@ platforms:
     image: ubuntu:artful
   - name: gotop-ubuntu-devel
     image: ubuntu:devel
+  - name: gotop-ubuntu-latest
+    image: ubuntu:latest
 provisioner:
   name: ansible
   lint:
