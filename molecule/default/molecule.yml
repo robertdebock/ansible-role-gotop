@@ -34,8 +34,10 @@ platforms:
     image: opensuse:leap
   - name: gotop-opensuse-tumbleweed
     image: opensuse:tumbleweed
-  - name: gotop-ubuntu-artful
-    image: ubuntu:artful
+  - name: gotop-ubuntu-latest
+    image: ubuntu:latest
+  - name: gotop-ubuntu-rolling
+    image: ubuntu:rolling
   - name: gotop-ubuntu-devel
     image: ubuntu:devel
   - name: gotop-ubuntu-latest
