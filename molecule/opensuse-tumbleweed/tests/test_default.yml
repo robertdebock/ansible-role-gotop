@@ -1,6 +1,0 @@
-# Molecule managed
-
----
-file:
-  /usr/local/bin/gotop:
-    exists: true

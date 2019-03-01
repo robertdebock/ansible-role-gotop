@@ -32,8 +32,6 @@ platforms:
     image: fedora:rawhide
   - name: gotop-opensuse-leap
     image: opensuse:leap
-  - name: gotop-opensuse-tumbleweed
-    image: opensuse:tumbleweed
   - name: gotop-ubuntu-latest
     image: ubuntu:latest
   - name: gotop-ubuntu-rolling
