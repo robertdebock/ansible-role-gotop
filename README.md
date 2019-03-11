@@ -19,7 +19,6 @@ This example is taken from `molecule/default/playbook.yml`:
   roles:
     - robertdebock.bootstrap
     - robertdebock.gotop
-
 ```
 
 Also see a [full explanation and example](https://robertdebock.nl/how-to-use-these-roles.html) on how to use these roles.
@@ -37,7 +36,6 @@ gotop_version: 1.4.0
 
 # Where to install gotop.
 gotop_installation_path: /usr/local/bin
-
 ```
 
 Requirements
