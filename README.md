@@ -6,6 +6,9 @@ gotop
 
 Install gotop on your system.
 
+<img src="https://img.shields.io/ansible/role/d/26504"/>
+<img src="https://img.shields.io/ansible/quality/26504"/>
+
 Example Playbook
 ----------------
 
@@ -89,7 +92,7 @@ This role has been tested against the following distributions and Ansible versio
 |alpine-edge*|yes|yes|yes*|
 |alpine-latest|yes|yes|yes*|
 |archlinux|yes|yes|yes*|
-|centos-6|yes|yes|yes*|
+|centos-7|yes|yes|yes*|
 |centos-latest|yes|yes|yes*|
 |debian-stable|yes|yes|yes*|
 |debian-unstable*|yes|yes|yes*|
