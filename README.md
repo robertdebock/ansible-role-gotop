@@ -37,6 +37,20 @@ The machine you are running this on, may need to be prepared.
 
 Also see a [full explanation and example](https://robertdebock.nl/how-to-use-these-roles.html) on how to use these roles.
 
+Role Variables
+--------------
+
+These variables are set in `defaults/main.yml`:
+```yaml
+---
+# defaults file for gotop
+
+# The version of gotop to install.
+gotop_version: 1.4.0
+
+# Where to install gotop.
+gotop_installation_path: /usr/local/bin
+```
 
 Requirements
 ------------
