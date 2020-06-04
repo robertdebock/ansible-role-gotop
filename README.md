@@ -2,9 +2,9 @@
 
 Install gotop on your system.
 
-|Travis|GitHub|Quality|Downloads|
-|------|------|-------|---------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-gotop.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-gotop)|[![github](https://github.com/robertdebock/ansible-role-gotop/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-gotop/actions)|[![quality](https://img.shields.io/ansible/quality/26504)](https://galaxy.ansible.com/robertdebock/gotop)|[![downloads](https://img.shields.io/ansible/role/d/26504)](https://galaxy.ansible.com/robertdebock/gotop)|
+|Travis|GitHub|Quality|Downloads|Version|
+|------|------|-------|---------|-------|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-gotop.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-gotop)|[![github](https://github.com/robertdebock/ansible-role-gotop/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-gotop/actions)|[![quality](https://img.shields.io/ansible/quality/26504)](https://galaxy.ansible.com/robertdebock/gotop)|[![downloads](https://img.shields.io/ansible/role/d/26504)](https://galaxy.ansible.com/robertdebock/gotop)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-gotop.svg)](https://github.com/robertdebock/ansible-role-gotop/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -73,8 +73,8 @@ The following roles can be installed to ensure all requirements are met, using `
 ```yaml
 ---
 - robertdebock.bootstrap
-- robertdebock.core_dependencies
 - robertdebock.ca_certificates
+- robertdebock.core_dependencies
 
 ```
 
