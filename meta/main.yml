@@ -17,6 +17,22 @@ galaxy_info:
       versions:
         - 7
         - 8
+    - name: Debian
+      versions:
+        - buster
+        - bullseye
+    - name: Fedora
+      versions:
+        - 31
+        - 32
+    - name: OpenSUSE
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - focal
+        - bionic
+        - xenial
 
   galaxy_tags:
     - gotop
