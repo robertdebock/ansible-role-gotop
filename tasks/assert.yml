@@ -4,9 +4,11 @@
     that:
       - gotop_version is defined
       - gotop_version | length > 0
+    quiet: yes
 
 - name: test if gotop_installation_path is set correctly
   assert:
     that:
       - gotop_installation_path is defined
       - gotop_installation_path | length > 0
+    quiet: yes
