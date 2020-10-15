@@ -40,7 +40,5 @@ galaxy_info:
     - system
     - monitoring
     - top
-    - centos
-    - redhat
 
 dependencies: []
