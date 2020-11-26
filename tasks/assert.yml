@@ -1,4 +1,5 @@
 ---
+
 - name: test if gotop_version is set correctly
   assert:
     that:
