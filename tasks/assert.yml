@@ -4,10 +4,12 @@
   assert:
     that:
       - gotop_version is defined
+      - gotop_version is string
     quiet: yes
 
 - name: test if gotop_installation_path is set correctly
   assert:
     that:
       - gotop_installation_path is defined
+      - gotop_installation_path is string
     quiet: yes
