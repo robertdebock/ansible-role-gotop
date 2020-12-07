@@ -4,7 +4,7 @@ Install gotop on your system.
 
 |Travis|GitHub|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-gotop.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-gotop)|[![github](https://github.com/robertdebock/ansible-role-gotop/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-gotop/actions)|[![quality](https://img.shields.io/ansible/quality/26504)](https://galaxy.ansible.com/robertdebock/gotop)|[![downloads](https://img.shields.io/ansible/role/d/26504)](https://galaxy.ansible.com/robertdebock/gotop)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-gotop.svg)](https://github.com/robertdebock/ansible-role-gotop/releases/)|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-gotop.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-gotop)|[![github](https://github.com/robertdebock/ansible-role-gotop/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-gotop/actions)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/robertdebock/gotop)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/robertdebock/gotop)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-gotop.svg)](https://github.com/robertdebock/ansible-role-gotop/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -134,6 +134,7 @@ Apache-2.0
 
 I'd like to thank everybody that made contributions to this repository. It motivates me, improves the code and is just fun to collaborate.
 
+- [FinweVI](https://github.com/FinweVI)
 
 ## [Author Information](#author-information)
 
