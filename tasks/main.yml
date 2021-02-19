@@ -7,7 +7,7 @@
   delegate_to: localhost
 
 - name: install software
-  unarchive:
+  ansible.builtin.unarchive:
     src: "{{ gotop_download_url }}"
     dest: "{{ gotop_installation_path }}"
     remote_src: yes
