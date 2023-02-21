@@ -4,7 +4,7 @@ Install gotop on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/robertdebock/ansible-role-gotop/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-gotop/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-gotop/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-gotop)|[![quality](https://img.shields.io/ansible/quality/26504)](https://galaxy.ansible.com/robertdebock/gotop)|[![downloads](https://img.shields.io/ansible/role/d/26504)](https://galaxy.ansible.com/robertdebock/gotop)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-gotop.svg)](https://github.com/robertdebock/ansible-role-gotop/releases/)|
+|[![github](https://github.com/robertdebock/ansible-role-gotop/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-gotop/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-gotop/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-gotop)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/robertdebock/gotop)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/robertdebock/gotop)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-gotop.svg)](https://github.com/robertdebock/ansible-role-gotop/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -57,7 +57,7 @@ gotop_installation_path: /usr/local/bin
 
 - pip packages listed in [requirements.txt](https://github.com/robertdebock/ansible-role-gotop/blob/master/requirements.txt).
 
-## [Status of used roles](#status-of-requirements)
+## [State of used roles](#state-of-used-roles)
 
 The following roles are used to prepare a system. You can prepare your system in another way.
 
