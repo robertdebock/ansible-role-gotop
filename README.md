@@ -2,9 +2,9 @@
 
 Install gotop on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![github](https://github.com/robertdebock/ansible-role-gotop/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-gotop/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-gotop/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-gotop)|[![quality](https://img.shields.io/ansible/quality/26504)](https://galaxy.ansible.com/robertdebock/gotop)|[![downloads](https://img.shields.io/ansible/role/d/26504)](https://galaxy.ansible.com/robertdebock/gotop)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-gotop.svg)](https://github.com/robertdebock/ansible-role-gotop/releases/)|
+|GitHub|GitLab|Downloads|Version|
+|------|------|---------|-------|
+|[![github](https://github.com/robertdebock/ansible-role-gotop/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-gotop/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-gotop/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-gotop)|[![downloads](https://img.shields.io/ansible/role/d/24507)](https://galaxy.ansible.com/robertdebock/gotop)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-gotop.svg)](https://github.com/robertdebock/ansible-role-gotop/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -94,7 +94,7 @@ The minimum version of Ansible required is 2.12, tests have been done to:
 - The current version.
 - The development version.
 
-If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-gotop/issues)
+If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-gotop/issues).
 
 ## [License](#license)
 
