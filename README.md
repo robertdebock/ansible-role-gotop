@@ -1,4 +1,4 @@
-# Ansible role [gotop](#gotop)
+# [Ansible role gotop](#gotop)
 
 Install gotop on your system.
 
